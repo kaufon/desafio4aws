@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
-CMD flask --app src/app/main.py run --debug -p 5000 --host 0.0.0.0
+CMD cd src/app/ && gunicorn -b 0.0.0.0:8000 main:app
