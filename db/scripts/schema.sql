@@ -9,14 +9,3 @@ subject varchar(100) NOT NULL,
 email varchar(256) NOT NULL,
 message TEXT NOT NULL
 );
-
-SELECT * FROM EMAIL
-
-
-DROP TABLE IF EXISTS EMAIL;
-
-DROP DATABASE JEAN04
-
-
-
-DROP * FROM JEAN04
